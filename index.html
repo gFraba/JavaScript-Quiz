@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+        </head>
+	<body>
+		<div id="nav">
+			<!-- view scores href-->
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 id="high" >Click for Highscore</h4></a>
+			</div>
+			<!-- countdown timer on the top right of nav bar-->
+			<div class="right">
+				<h4>Time Remaining: <span id="timeLeft">0</span></h4>
+			</div>
+		</div>
+		<!--Quiz content-->
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>JavaScript Quiz</h1>
+                
+                <h3>Click start to begin!</h3>
+                
+                <button onclick="start()">Start!</button>
+            </div>
+		</div>
+		<script src = "script.js" type="text/javascript"></script>
+	</body>
+</html>
